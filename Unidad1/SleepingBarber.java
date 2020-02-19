@@ -89,4 +89,4 @@ System.out.println("---- El cliente " + clienteId + " se va con el pelo cortado"
         //  new Cliente(s,i).start();
       
   }
-}
+}//Checked 
