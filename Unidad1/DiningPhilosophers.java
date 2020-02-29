@@ -110,4 +110,4 @@ public class Filosofo extends Thread {
             comer();
         }
     }
-}
+}//Checked 
