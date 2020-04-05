@@ -23,6 +23,7 @@ def merge(*args):
         merged.extend(right[right_index:])
     else:
         merged.extend(left[left_index:])
+    print(merged)
     return merged
 
 
