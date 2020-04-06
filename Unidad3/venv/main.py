@@ -61,12 +61,7 @@ def merge_sort_paralelo(data):
 
     # Una vez los subarrays se encuentran ordenados ahora tenemos que mezclarlos de dos en dos
     # con el objetivo de reducir todos los subarrays a un solo array ordenado
-
     while len(data) > 1:
-        # If the number of partitions remaining is odd, we pop off the
-        # last one and append it back after one iteration of this loop,
-        # since we're only interested in pairs of partitions to merge.
-
         # Si el número de subarrays es impar, nos guardamos el último para mezclarlo en
         # próximas iteraciones del while
         extra = data.pop() if len(data) % 2 == 1 else None
@@ -91,7 +86,7 @@ if __name__ == "__main__":
     print
 
     # Defino mi número de expediente con el cual vamos a generar los datos de manera aleatroria.
-    numero_expediente = 100000 #21869286
+    numero_expediente = 21869286
     array_no_ordenado = [random.randint(-numero_expediente, numero_expediente) for _ in range(numero_expediente)]
 
     # Mostramos los datos desordenados
