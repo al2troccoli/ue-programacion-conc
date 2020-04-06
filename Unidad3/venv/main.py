@@ -91,7 +91,7 @@ if __name__ == "__main__":
     print
 
     # Defino mi número de expediente con el cual vamos a generar los datos de manera aleatroria.
-    numero_expediente = 21869286
+    numero_expediente = 100000 #21869286
     array_no_ordenado = [random.randint(-numero_expediente, numero_expediente) for _ in range(numero_expediente)]
 
     # Mostramos los datos desordenados
